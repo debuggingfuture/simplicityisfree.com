@@ -114,6 +114,10 @@ export default {
   flex: 0 0 100%;
 }
 
+#navbar ul {
+  margin-bottom: 0.2em;
+}
+
 .container nav ul li { display: inline-block; }
 .content
 {

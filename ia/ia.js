@@ -122,7 +122,7 @@ module.exports = {
     },
     {
       type: 'markdown',
-      heroMedia: '/jpmorgan.jpg',
+      heroMedia: '/jpmorgan.png',
       key: 'vincent_experience_jpmorgan.md'
     },
     {
