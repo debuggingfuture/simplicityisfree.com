@@ -1,6 +1,4 @@
-# t
-
-> timeis.ltd
+# timeis.ltd
 
 ## Build Setup
 

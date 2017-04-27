@@ -1,4 +1,4 @@
-# Show me The Code
+# Show Me The Code Meetup
 ##### 2016 - Present
 Show me The Code is a series of Developer Meetup hosted in Hong Kong & Taipei.
 Want to keep talks short & simple, encouraging speakers to share. 4-6 lightning talks a night, No slides but Whiteboard.  
