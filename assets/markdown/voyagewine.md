@@ -1,0 +1,3 @@
+# Voyage.wine
+
+Wine has always been my passion since my exchange life in Germany. This very first startup I cofounded is to build a Netflix for Wine in Asia. Applying my past experience in product development, data analysis and team building, we envision a recommendation engine powered e-commerce in wine where everyone can overcome all the barriers and discover one's taste. Now we are bootstraping in HK Market while product development are based in Hong Kong and Taipei. Follow us on [Facebook](https://www.facebook.com/voyage.wine), [IG](https://www.instagram.com/voyage.wine) & [AngelList](https://angel.co/voyage-wine)
