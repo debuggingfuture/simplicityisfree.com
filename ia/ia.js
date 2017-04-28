@@ -48,6 +48,21 @@ module.exports = {
             'vincent_experience_jpmorgan.md'
           ]
         },
+        // {
+        //   title: 'projects',
+        //   titleCht: '項目',
+        //   infos: [
+        //
+        //   ]
+        // },
+        {
+          title: 'engineering',
+          titleCht: '工程',
+          infos: [
+            'project_tutmusicco.md',
+            'fbreactionsio.md',
+          ]
+        },
         {
           title: 'show me the code',
           titleCht: '',
@@ -152,7 +167,7 @@ module.exports = {
     {
       type: 'markdown',
       heroMedia: 'slides.com/chunyinvincentlau/fbreactionsio/embed',
-      key: 'fbreactionsio.md'
+      key: 'fbreactionsio.md',
     },
     {
       type: 'markdown',
@@ -193,6 +208,11 @@ module.exports = {
       key: 'death',
       type: 'url',
       heroMedia: 'medium.com/@vincent_lcy/%E8%90%BD%E6%9C%88%E6%BB%BF%E5%B1%8B%E6%A8%91-46dc2a3e97ad',
+    },
+    {
+      type: 'markdown',
+      heroMedia: 'tutmusicco.png',
+      key: 'project_tutmusicco.md'
     },
     {
       key: 'kafka',

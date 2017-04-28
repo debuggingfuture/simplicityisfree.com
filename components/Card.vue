@@ -1,6 +1,6 @@
 <template>
   <div class="card">
-    <img :src="heroImageUrl" class="hero" alt="">
+    <img :src="heroImageUrl" v-if="!heroMediaHtml" class="hero" alt="">
     <div class="hero-embed" v-if="heroMediaHtml" v-html="heroMediaHtml">
     </div>
     <div class="card__description" v-html="infoMounted">
