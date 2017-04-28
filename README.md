@@ -39,3 +39,5 @@ For detailed explanation on how things work, checkout the [Nuxt.js docs](https:/
 - type of content a bit complicated & overlap (card concept)
 
 - key: kebab, title: keep as is
+
+### TODO image placeholder

@@ -13,7 +13,7 @@ For application in job positions including Dev/Design/Marketing/Copywriting, ple
 # Contact 聯絡
 ##### Email 電郵 [lauchunyin@gmail.com](mailto:lauchunyin@gmail.com)
 
-##### Linkedin [Profile][https://www.linkedin.com/in/chun-yin-vincent-lau-45347610/]
+##### Linkedin [Profile](https://www.linkedin.com/in/chun-yin-vincent-lau-45347610/)
 
 ##### FB [Lau Chun Yin Vincent](https://www.facebook.com/vincentlcy)
 

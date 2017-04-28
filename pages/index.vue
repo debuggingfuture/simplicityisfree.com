@@ -72,6 +72,7 @@ export default {
         const key = `./${info.key}`;
        /* eslint-disable */
        try{
+         //TODO match against markdown
           return require.context('../assets/markdown',true, /\.md$/)(key);
          }catch(e){
            console.log(e);

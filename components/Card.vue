@@ -1,6 +1,8 @@
 <template>
   <div class="card">
     <img :src="heroImageUrl" class="hero" alt="">
+    <div class="hero-embed" v-if="heroMediaHtml" v-html="heroMediaHtml">
+    </div>
     <div class="card__description" v-html="infoMounted">
     </div>
   </div>
@@ -35,7 +37,8 @@
     data() {
       return {
         infoMounted: '',
-        heroImageUrl: ''
+        heroImageUrl: '',
+        heroMediaHtml: ''
       };
     },
     mounted() {
@@ -54,10 +57,16 @@
           console.log('in');
           console.log(this.infoMounted);
         }
+        console.log(this.info.heroMedia);
         if (_.startsWith(this.info.heroMedia, 'slides.com')) {
           this.heroMediaHtml = `<iframe src="//${this.info.heroMedia}" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>`;
           // this.info.heroMedia;
           //
+        } else if (_.startsWith(this.info.heroMedia, 'medium.com')) {
+          this.heroMediaHtml = `<a href="//${this.info.heroMedia}" class="embedly-card">Embedly</a>`;
+        } else if (_.startsWith(this.info.heroMedia, 'facebook.com')) {
+          console.log('fb');
+          this.heroMediaHtml = `<iframe src="//${this.info.heroMedia}" class="fb-embed" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>`;
         }
       }
     }
@@ -81,7 +90,16 @@ img.hero{
   max-width: 70%;
   max-height: 50vh;
 }
+.hero-embed{
+  /*width: 70%;*/
+  min-width: 600px;
 
+}
+
+.hero-embed iframe.fb-embed{
+  width: 100%;
+  height: 700px;
+}
 
 .card .card__description{
   width: 100%;
@@ -118,5 +136,9 @@ img.hero{
 }
 .content > div{
   width: 100%;
+}
+a.embedly-card{
+  /*to hide loading ones*/
+  display:none;
 }
 </style>
