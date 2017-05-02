@@ -19,7 +19,7 @@ import Card from '~components/Card.vue';
 import _ from 'lodash';
 import ia from '../ia/ia.js';
 
-if (process.env.NODE_ENV !== 'development') {
+if (process.BROWSER_BUILD) {
   require('../vendor/segmentio.js');
 }
 

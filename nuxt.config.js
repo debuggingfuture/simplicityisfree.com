@@ -26,6 +26,9 @@ module.exports = {
   ** Build configuration
   */
   build: {
+    vendor: [
+      './vendor/segmentio.js'
+    ],
     loaders: [
       {
         test: /\.(png|jpe?g|gif|svg)$/,

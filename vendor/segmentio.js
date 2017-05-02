@@ -1,3 +1,4 @@
+/* eslint-disable */
 !(function () {
   const analytics = window.analytics = window.analytics || []; if (!analytics.initialize) {
     if (analytics.invoked)window.console && console.error && console.error('Segment snippet included twice.'); else {
