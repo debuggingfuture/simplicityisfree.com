@@ -19,6 +19,10 @@ import Card from '~components/Card.vue';
 import _ from 'lodash';
 import ia from '../ia/ia.js';
 
+if (process.env.NODE_ENV !== 'development') {
+  require('../vendor/segmentio.js');
+}
+
 const keyByCategory = (categories, activeCategoryTitle) =>
   _(categories)
   // TODO ensure title lowercase?
